@@ -64,7 +64,4 @@ Neste tutorial, discutimos as principais diferenças entre o keystore Java e o t
 
 Além disso, mostramos como os padrões podem ser substituídos pelas propriedades do sistema.
 
-A seguir, poderíamos dar uma olhada no guia SSL a seguir ou no Guia de referência JSSE para aprender mais detalhes sobre a comunicação criptografada em Java.
-
-
 
