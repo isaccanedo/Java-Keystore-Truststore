@@ -40,8 +40,6 @@ Nós, o cliente, procuramos o certificado associado em nosso armazenamento confi
 
 Java empacotou um truststore chamado cacerts e ele reside no diretório $JAVA_HOME/jre/lib/security.
 
-It contains default, trusted Certificate Authorities:
-
 Ele contém autoridades de certificação padrão e confiáveis:
 
 ```
