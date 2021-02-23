@@ -2,7 +2,9 @@
 :package: # Difference Between a Java Keystore and a Truststore
 
 ### Conceitos
-Na maioria dos casos, usamos um keystore e um truststore quando nosso aplicativo precisa se comunicar por SSL / TLS.
+Em um handshake SSL, o objetivo do trustStore é verificar as credenciais e o objetivo do keyStore é fornecer credenciais. O keyStore em Java armazena a chave privada e os certificados correspondentes às suas chaves públicas e exige se você é servidor SSL ou SSL requer autenticação de cliente.
+
+Na maioria dos casos, usamos um keystore e um truststore quando nosso aplicativo precisam se comunicar por SSL/TLS.
 
 Normalmente, esses são arquivos protegidos por senha que ficam no mesmo sistema de arquivos de nosso aplicativo em execução. 
 O formato padrão usado para esses arquivos é JKS até Java 8.
